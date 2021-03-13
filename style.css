@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);    
+}
+
+h2{
+    font-size: 1.5rem;
+}
+h2, h3{
+    color: hsl(217, 19%, 35%);
+}
+
+.card-container{
+    padding: 134px 200px;
+}
+
+.main-card{
+    display: flex;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -5px lightblue;
+
+    margin: 110px auto;
+
+    height:270px;
+    width: 700px;
+
+}
+
+.card-info{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+
+    margin-left: -50px;
+    padding: 30px;
+}
+
+#drawers-image{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.profile-pic{
+    height: 40px;
+    border-radius:100%;
+    margin-right: 20px;
+}
+
+.share-button-container{
+    border-radius: 100%;
+    background-color: hsl(210, 46%, 95%);   
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    justify-self:flex-end;
+    margin-left: auto;
+    margin-right: 11px;
+    cursor: pointer;
+
+}
+.font-grey{
+    color: hsl(212, 23%, 69%);
+}
+
+#share-button{
+    margin-top: 7px;
+}
+
+.pop-up{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    color: hsl(212, 23%, 69%);
+    position: absolute;
+    right: 340px;
+    top: 370px;
+    z-index: 2;
+    display: none;
+    /* display: flex; */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 240px;
+    padding: 14px;
+}
+
+.triangle{
+    display: none;
+    transform: rotate(45deg);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-color: hsl(217, 19%, 35%);
+    right: 420px;
+    top: 411px;
+}
+
+.show-elements{
+    display: flex;
+}
